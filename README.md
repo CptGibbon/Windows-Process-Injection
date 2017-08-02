@@ -13,7 +13,7 @@ which provides good background on the following techniques:
 Written in C, error handling has been removed for brevity.
 Uses documented WinAPI functions where possible for simplicity, as opposed
 to more esoteric ones favoured by malware authors.
-Tested using Visual Studio 2017 on Windows 10 Pro v1703 build 15063.483 only for 64bit builds.
+Tested using Visual Studio 2017 on Windows 10 Pro v1703 build 15063.483 __only for 64bit builds__.
 
 
 A quick way to test these techniques out is to write a small console

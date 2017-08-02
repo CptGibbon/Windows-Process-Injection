@@ -16,7 +16,7 @@ typedef NTSTATUS(WINAPI* xNtUnmapViewOfSection)(
 int main()
 {
 	LPCTSTR sTargetProcessPath = L"C:\\windows\\system32\\ARP.exe";
-	LPCTSTR sInjectedFilePath = L"injecteme.exe";
+	LPCTSTR sInjectedFilePath = L"injectme.exe";
 
 	// start target process in suspended state
 	STARTUPINFO startupInfo;

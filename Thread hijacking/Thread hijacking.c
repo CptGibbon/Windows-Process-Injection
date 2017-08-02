@@ -4,7 +4,6 @@
 #define GETSTDHANDLEMARKER 0xaa
 #define WRITEFILEMARKER 0xbb
 
-DWORD getPID(LPCTSTR name);
 DWORD getMarker(UCHAR* shellcode, int marker, size_t len);
 
 int main()
